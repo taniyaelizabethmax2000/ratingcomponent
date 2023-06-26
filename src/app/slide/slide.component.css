@@ -1,0 +1,91 @@
+ .movie-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+      height: 100vh;
+  }
+  
+  .poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://thecapitalpost.net/wp-content/uploads/2022/09/BRAHMASTRA.jpg'); /* Replace with the actual path to your movie poster */
+   
+    background-size: cover;
+    z-index: 1;
+  
+  
+  } 
+  
+  .details {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.797) 0%, rgba(0, 0, 0, 0.377) 100%);
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: cursive;
+    font-size: medium;
+    
+  }
+  
+  .details h1 {
+    margin: 0;
+    font-size: 32px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .details p {
+    margin-bottom: 15px;
+    font-size: 18px;
+   
+  }
+  
+  .movie-container:hover .details {
+    width: 100%;
+    height: 800px;
+   
+  }
+  
+  
+  .star {
+    color: yellow;
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  
+  .button-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  }
+  
+  .add-rating-button {
+  font-size: 16px;
+  background-color: rgba(8, 8, 8, 0.466);
+  border-radius: 25px;
+  cursor: pointer;
+  color: wheat;
+  padding: 12px 24px;
+  border: none;
+  display: flex;
+  align-items: center;
+  
+  }
+  
+  .add-rating-button:hover:hover  {
+  background-color: rgba(245, 222, 179, 0.192);
+  }

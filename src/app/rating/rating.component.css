@@ -1,0 +1,63 @@
+.box1  {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .box2 {
+    display: flex;
+    justify-content: flex-start;
+   
+  }
+  .input-box {
+    width: 100%;
+    height: 125px;
+  }
+  h3{
+    font-family: cursive;
+  }
+  .submit-button {
+    float: left;
+  }
+  @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+
+
+/* h1[alt="Simple"] {color: white;}
+a[href], a[href]:hover {color: grey; font-size: 0.5em; text-decoration: none}
+ */
+
+
+
+.starrating > input {display: none;}  
+
+.starrating > label:before { 
+  content: "\f005";
+  margin: 2px;
+  font-size: 2em;
+  font-family: FontAwesome;
+  display: inline-block; 
+}
+
+.starrating > label
+{
+  color: #222222;
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } 
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  } 
+ 
+
+
+
+
+
+
+
+
+   

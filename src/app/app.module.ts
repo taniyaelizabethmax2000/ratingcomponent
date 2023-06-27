@@ -8,6 +8,7 @@ import { SlideComponent } from './slide/slide.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { RatingComponent } from './rating/rating.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { RatingComponent } from './rating/rating.component';
     ScrollingModule,
     MatCardModule,
     BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
